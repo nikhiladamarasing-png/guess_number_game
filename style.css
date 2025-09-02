@@ -1,0 +1,14 @@
+/* Import a clean, readable font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Style for the message box that appears in the middle of the screen */
+.message-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
